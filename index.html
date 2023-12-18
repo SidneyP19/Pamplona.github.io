@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Gallery</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+   
+</head>
+<body>
+<nav data-toggled="false" data-transitionable="false">
+    <div id="nav-logo-section" class="nav-section">
+      <a href="main.html"> VALORANT
+        <ion-icon name="images-outline"></ion-icon>
+      </a>
+    </div>
+
+    <div id="nav-mobile-section">
+      <div id="nav-link-section" class="nav-section">
+        <a href="about.html">ABOUT</a>
+      </div>
+
+      <div id="nav-social-section" class="nav-section">
+        <a href="https://www.sometimesredsometimesblue.com/">
+          <ion-icon name="heart"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/@valorant" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://twitter.com/VALORANT">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+      </div>
+
+      <div id="nav-contact-section" class="nav-section">
+        <a href="https://playvalorant.com/en-sg/">@VALORANT</a>
+      </div>
+    </div>
+
+    <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+      <a href="about.html">ABOUT</a>
+    </button>
+  </nav>
+  
+  <main>
+    
+    <article data-index="0" data-status="active">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>BRIMSTONE</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="1" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mind games surely will.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>VIPER</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="2" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.</p>
+      </div>
+      <div class="article-title-section article-section">
+
+        <h2>OMEN</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="3" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage doesn't take her enemies out, the debuff her robots provide will make short work of them.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>KILLJOY</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="4" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>CYPHER</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="5" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>SOVA</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="6" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>SAGE</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="7" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>PHOENIX</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="8" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>JETT</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="9" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>REYNA</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="10" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>RAZE</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="11" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>BREACH</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="12" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye's side.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>SKYE</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="13" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>YORU</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="14" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she’s always eons ahead of her enemy’s next move.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>ASTRA</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="15" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>KAY/O</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="16" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>CHAMBER</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="17" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Filipino Agent, Neon, surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>NEON</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="18" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>FADE</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="19" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Hailing from India's coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>HARBOR</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="20" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>GEKKO</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="21" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>DEADLOCK</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+    <article data-index="22" data-status="inactive">
+      <div class="article-image-section article-section"></div>
+
+      <div class="article-description-section article-section">
+        <p>// Biography</p>
+        <p>Chinese fixer for hire Iso goes into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.</p>
+      </div>
+
+      <div class="article-title-section article-section">
+        <h2>ISO</h2>
+        <i class="fa-light fa-plus-large"></i>
+      </div>
+
+      <div class="article-nav-section article-section">
+        <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+          <i class="fa-light fa-arrow-left-long"></i>
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </button>
+        <button class="article-nav-button" type="button" onclick="handleRightClick()">
+          <i class="fa-light fa-arrow-right-long"></i>
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </button>
+      </div>
+    </article>
+
+  </main>
+</body>
+</html>
